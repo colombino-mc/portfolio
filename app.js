@@ -48,7 +48,7 @@ loader.load(
 // Функция анимации для вращения модели
 
 let lastTime = 0;
-const maxFPS = 60; // Ограничение до 30 FPS
+const maxFPS = 60; // Ограничение FPS
 function animate(timestamp) {
     requestAnimationFrame(animate);
 
